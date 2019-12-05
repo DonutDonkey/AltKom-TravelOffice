@@ -5,10 +5,9 @@ public class Trip {
     private Date   end;
     private String destination;
 
-    private double price;
-
-    public double getPrice() { return price; }
-    public void setPrice(double price) { this.price = price; }
+    private double    price;
+    public  double getPrice() { return price; }
+    public  void   setPrice(double price) { this.price = price; }
 
     public Trip(Date start, Date end, String destination) {
         this.start = start;

@@ -4,19 +4,19 @@ import java.util.Optional;
 
 public class Customer {
     private String name;
+
     private Adress adress;
-    private Trip   trip;
-
-    public Customer(String name) {
-        this.name = name;
-    }
-
     public void setAdress(Adress adress) {
         this.adress = adress;
     }
 
+    private Trip      trip;
     public void assignTrip(Trip trip) {
         this.trip = trip;
+    }
+
+    public Customer(String name) {
+        this.name = name;
     }
 
     @Override

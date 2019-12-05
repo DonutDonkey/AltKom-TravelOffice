@@ -2,7 +2,6 @@ package pl.accenture;
 
 public class DomesticTrip extends Trip {
     private double ownArrivalDiscount;
-
     public void setOwnArrivalDiscount(double ownArrivalDiscount) { this.ownArrivalDiscount = ownArrivalDiscount; }
 
     @Override
