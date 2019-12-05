@@ -3,22 +3,22 @@ package pl.accenture;
 public class Test {
     public static void main(String[] args) {
         Adress adress = new Adress("street", "zip","city");
-//        Customer customer = new Customer("name");
-//        Trip trip = new Trip(new Date(1111,11,1), new Date(2222,22,2), "destination");
-//
-//        customer.assignTrip(trip);
-//
-//        System.out.println(customer.getInfo());
+        Customer customer = new Customer("name");
+        Trip trip = new Trip(new Date(1111,11,1), new Date(2222,22,2), "destination");
+
+        customer.assignTrip(trip);
+
+        System.out.println(customer.toString());
 //
 //        //4.9
 //
-//        TravelOffice travelOffice = new TravelOffice();
-//
-//        travelOffice.addCustomer(new Customer("pierwszy"));
-//        travelOffice.addCustomer(new Customer("drugi"));
-//        travelOffice.addCustomer(new Customer("trzeci"));
-//
-//        System.out.println(travelOffice.toString());
+        TravelOffice travelOffice = new TravelOffice();
+
+        travelOffice.addCustomer(new Customer("pierwszy"));
+        travelOffice.addCustomer(new Customer("drugi"));
+        travelOffice.addCustomer(new Customer("trzeci"));
+
+        System.out.println(travelOffice.toString());
 
         //5.2
 

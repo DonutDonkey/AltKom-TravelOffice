@@ -32,8 +32,12 @@ public class TravelOffice {
         customerArray = helper.clone();
     }
 
+    private Boolean isNotFull() {
+        return getCustomerCount() < customerArray.length;
+    }
+
     public Customer[] addCustomer(Customer customer) {
-        if(getCustomerCount() < customerArray.length) {
+        if(isNotFull()) {
             insertCustomerIntoArray(customer);
         } else {
             doubleCustomerArraySize();
