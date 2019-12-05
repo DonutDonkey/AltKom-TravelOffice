@@ -19,9 +19,9 @@ public class Test {
         travelOffice.addCustomer(new Customer("trzeci"));
 
         System.out.println(travelOffice.toString());
-
-        //5.2
-
+//
+//        //5.2
+//
         DomesticTrip domesticTrip = new DomesticTrip(new Date(1111, 11, 1),
                                                      new Date(2222, 22, 2),
                                                      "Domestic Trip Destination");
